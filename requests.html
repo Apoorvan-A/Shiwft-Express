@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shiwft Express - Requests</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Shiwft Express</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="requests.html">Requests</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="login.html" class="login-btn">Login</a>
+  </nav>
+
+  <section class="requests">
+    <h2>Open Requests</h2>
+    <div class="search-filters">
+      <input type="text" id="search" placeholder="Search requests...">
+      <select id="filter-location">
+        <option value="">All Locations</option>
+        <option value="F Block">F Block</option>
+        <option value="Library">Library</option>
+        <option value="Main Gate">Main Gate</option>
+      </select>
+      <select id="filter-price">
+        <option value="">All Prices</option>
+        <option value="50">₹50 or less</option>
+        <option value="100">₹100 or less</option>
+        <option value="200">₹200 or less</option>
+      </select>
+    </div>
+
+    <div class="request-grid">
+
+      <div class="request-card">
+        <h3>Pickup from F Block</h3>
+        <p><strong>Requested by:</strong> apoorvan.a2023@vitstudent.ac.in</p>
+        <p><strong>Details:</strong> Amazon courier, small package.</p>
+        <p><strong>Offered Price:</strong> ₹50</p>
+        <button class="contact-btn">Contact Requester</button>
+      </div>
+    
+    </div>
+
+
+    <div class="pagination">
+      <button class="page-btn">1</button>
+      <button class="page-btn">2</button>
+      <button class="page-btn">3</button>
+      <span>...</span>
+      <button class="page-btn">Next</button>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <p>Shiwft Express.Made by Apoorvan,Rahul & Bala.</p>
+  </footer>
+</body>
+</html>
